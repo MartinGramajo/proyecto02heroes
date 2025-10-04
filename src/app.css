@@ -1,0 +1,15 @@
+
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cartas por fila */
+  gap: 20px; /* separación entre cartas */
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    grid-template-columns: 1fr; /* en móvil solo 1 carta por fila */
+  }
+}
+
