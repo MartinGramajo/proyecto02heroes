@@ -25,7 +25,7 @@ const NavbarComponent = ({ searchTerm, onSearch }) => {
       </Menu.Item>
 
       
-      <Menu.Item key="search" disabled style={{ marginLeft: "auto" }}>
+      <Menu.Item key="search" disabled >
         <Input
           placeholder="Buscar héroe..."
           value={searchTerm}
